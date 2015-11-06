@@ -1,10 +1,10 @@
 <h1>INTEGRANTES</h1>
 <li> Franz Farbinger</li>
 <li> Joaquín Villagra</li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
+<li> Catalina Ortis</li>
+<li> Adolfo Ovalle</li>
+<li> Cristobal Becerra</li>
+<li> Jonathan Catalan</li>
 <br><br>
 <h1> TALLERES</h1>
 
