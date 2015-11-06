@@ -3,6 +3,7 @@ package model;
 import java.io.Serializable;
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -62,6 +63,25 @@ public class Actor implements Serializable {
 
 	public void setLastUpdate(Timestamp lastUpdate) {
 		this.lastUpdate = lastUpdate;
+	}
+	
+	@OneToMany(mappedBy="actor")
+	private List<Film_Actor> films;
+	
+	List<Film_Actor> getFilms() {
+		return films;
+	}
+
+	void setFilms(List<Film_Actor> films) {
+		this.films = films;
+	}
+	
+	public List<Film> obtenerFilms(){
+		List<Film> lista = new ArrayList<Film>();
+		for(Film_Actor Film : this.films){
+			lista.add(Film.getFilm());
+		}
+		return lista;
 	}
 
 }
