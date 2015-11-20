@@ -1,7 +1,7 @@
 <h1>INTEGRANTES</h1>
 <li> Franz Farbinger</li>
 <li> Joaquín Villagra</li>
-<li> Catalina Ortis</li>
+<li> Catalina Ortiz</li>
 <li> Adolfo Ovalle</li>
 <li> Cristobal Becerra</li>
 <li> Jonathan Catalan</li>
